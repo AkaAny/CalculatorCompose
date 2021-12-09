@@ -132,6 +132,7 @@ class MainActivity() : ComponentActivity() {
             ActionButton("+", modifier = maxWidthModifier)
             ActionButton("-", modifier = maxWidthModifier)
             ActionButton("*", modifier = maxWidthModifier)
+            ActionButton("/",modifier = maxWidthModifier)
             SumButton(
                 modifier = Modifier
                     .fillMaxSize()
